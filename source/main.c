@@ -166,7 +166,7 @@ static uintptr_t kernel_scan_near(const uintptr_t addr, const size_t range, cons
     return kernel_scan(base, limit, needle, nlen);
 }
 
-static const uint32_t fw_max = 0x99999999;
+static const uint32_t fw_max = 0x13600000;
 
 static void write_fw(const uintptr_t psdk)
 {
